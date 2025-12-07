@@ -1,0 +1,96 @@
+/* Charlottes nya tema */
+
+/* om single-post php går sönder så kör denna */
+
+* {
+  margin: 0;
+  overflow: auto;
+}
+
+/* Inter */
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter/Inter-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('assets/fonts/Inter/Inter-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Archivo */
+@font-face {
+  font-family: 'Archivo';
+  src: url('assets/fonts/Archivo/Archivo-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Archivo';
+  src: url('assets/fonts/Archivo_Black/ArchivoBlack-Regular.ttf')
+    format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+h1 {
+  color: rgb(29, 29, 29);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  margin: 1.3rem 0;
+}
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin: 1rem 0;
+}
+
+body {
+  background-color: rgb(246, 246, 246);
+  margin: 1.3rem;
+}
+
+/*  header */
+.charlottes-header-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  background-color: #fff;
+  min-height: 80px;
+  padding: 1.5rem 3rem;
+}
+
+a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+}
+
+.header-search-form {
+  padding: 1.5rem 3rem 1rem;
+  background-color: #fff; /* synlig nu */
+}
+.charlottes-header-menu li {
+  list-style: none;
+}
+
+/* widgets */
+.footer-widget-area {
+  background-color: lightblue;
+  padding: 1.3rem;
+  margin-top: 5rem;
+  width: 100%;
+}
+
+.footer-widget {
+  margin: 15px;
+}
