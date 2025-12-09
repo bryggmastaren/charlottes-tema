@@ -4,6 +4,7 @@
 
 * {
   margin: 0;
+  margin-top: -0.3rem;
   overflow: auto;
 }
 
@@ -37,12 +38,26 @@
   font-weight: 900;
   font-style: normal;
 }
-
+.hero-title {
+  padding-top: 7rem !important;
+  color: #fff;
+  font-size: 7rem;
+}
+.hero-page-container h1 {
+  color: #fff !important;
+}
+.hero-page-container {
+  margin-top: 0;
+}
 h1 {
-  color: rgb(29, 29, 29);
+  color: rgb(29, 29, 29) !important;
   font-family: 'Archivo', sans-serif;
   font-weight: 900;
-  margin: 1.3rem 0;
+  padding-top: 2rem !important;
+  font-size: 5rem;
+}
+h2 {
+  margin-left: 3rem;
 }
 h2,
 h3,
@@ -53,10 +68,31 @@ h6 {
   font-weight: 700;
   margin: 1rem 0;
 }
+p {
+  font-family: 'Inter', sans-serif;
+  margin-left: 3rem;
+}
+
+.site-logo {
+  width: 50px;
+  margin-left: 2.7rem;
+}
 
 body {
-  background-color: rgb(246, 246, 246);
-  margin: 1.3rem;
+  background: rgb(246, 246, 246);
+}
+
+nav {
+  background: #fff;
+}
+
+html {
+  background: #fff;
+}
+
+a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
 }
 
 /*  header */
@@ -70,27 +106,182 @@ body {
   padding: 1.5rem 3rem;
 }
 
-a {
-  font-family: 'Archivo', sans-serif;
-  font-weight: 900;
+.charlottes-header-menu a {
+  text-decoration: none;
+  color: rgb(29, 29, 29);
+  font-size: 1.3rem;
+}
+
+.charlottes-header-menu a:hover {
+  color: rgb(187, 0, 162);
 }
 
 .header-search-form {
-  padding: 1.5rem 3rem 1rem;
+  padding: 0 3rem 1rem;
   background-color: #fff; /* synlig nu */
 }
+
+.header-search-form button {
+  padding: 0.2rem;
+  margin: 0.2rem;
+  font-family: 'Inter', sans-serif;
+}
+
 .charlottes-header-menu li {
   list-style: none;
 }
-
+.page-template-contact-form h1 {
+  color: red;
+}
 /* widgets */
 .footer-widget-area {
+  font-family: 'Inter', sans-serif;
   background-color: lightblue;
-  padding: 1.3rem;
-  margin-top: 5rem;
-  width: 100%;
+  padding-top: 3rem;
+  font-size: 24px;
+  height: 50vh;
+}
+
+.footer-widget-area {
+  font-size: 24px;
+}
+
+.footer-widget-area img {
+  height: 200px;
+}
+
+.wp-block-verse {
+  color: rgb(106, 0, 106);
+  padding-top: 1rem;
+  padding-left: 3rem;
+  padding-bottom: 3rem;
 }
 
 .footer-widget {
-  margin: 15px;
+  margin: 0.3rem;
+}
+
+.footer-widget .wp-block-embed-spotify {
+  height: 12rem;
+  display: flex;
+  align-items: center;
+}
+.wp-block-embed-spotify iframe {
+  /* spotify grejen*/
+  border-radius: 12px;
+  width: 52vw;
+  margin: 3rem;
+}
+
+/* Contact form*/
+
+label {
+  /* "your name" */
+  font-family: 'Archivo', sans-serif;
+  padding-left: 1px;
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+form {
+  font-family: 'Inter', sans-serif;
+  margin-top: 1rem;
+  font-size: 1rem;
+}
+
+input {
+  margin: 6px 0 15px 0;
+  padding: 2px 5px;
+  font-size: 16px;
+  width: 400px;
+  letter-spacing: 0.5px;
+}
+
+textarea {
+  margin: 6px 0 15px 0;
+  padding: 2px 5px;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  width: 400px;
+  letter-spacing: 0.6px;
+}
+
+.blog-post {
+  background: #fff;
+}
+
+.my-content-wrapper {
+  padding: 10px;
+  margin: 0;
+}
+div h1 {
+  margin-left: 3rem;
+}
+
+/* ABOUT US PAGE */
+.about-us-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  max-width: 95%;
+}
+
+.about-us-content {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+.about-us-content h1 {
+  margin-bottom: 0.8rem;
+}
+.about-us-content p {
+  letter-spacing: 0.03rem;
+  width: 70%;
+  line-height: 1.8rem;
+  padding-bottom: 4rem;
+}
+
+/* sidebar */
+.sidebar {
+  height: 49vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: #c700ac 3px solid;
+  border-radius: 10px;
+}
+.about-us-sidebar {
+  flex: 1;
+  padding-top: 4rem;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-bottom: 4rem;
+}
+
+.about-us-sidebar ul.menu {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.about-us-sidebar h3 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 2rem;
+  margin-left: 1.4rem;
+  padding-top: 1.5rem;
+}
+.about-us-sidebar ul.menu li a {
+  display: block; /* gör att hela raden är klickbar */
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  padding: 15px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 0.3rem;
+}
+.about-us-sidebar ul.menu li a:hover {
+  background: #ff79d7;
 }

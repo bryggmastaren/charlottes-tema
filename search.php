@@ -1,7 +1,8 @@
 
 <?php get_header(); ?>
 <?php get_template_part('template-parts/header');?>
-    <h1> SÖKRESULTAT</h1>
+    <div class="bg-image" style="background-image:url(<?php echo get_template_directory_uri(); ?>/assets/images/screenshot.png); height:100px; width:100%; background-size:cover; background-position:center;"> <h1>SÖKRESULTAT</h1> </div>
+
 
     
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -16,3 +17,4 @@
 
 <?php get_template_part('template-parts/footer');?>
 <?php get_footer(); ?>
+

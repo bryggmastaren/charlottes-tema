@@ -11,7 +11,7 @@
 <?php if ( has_post_thumbnail() ) : ?>
     <img 
         srcset="<?php echo wp_get_attachment_image_srcset( get_post_thumbnail_id() ); ?>"
-        sizes="(max-width: 700px) 100vw, (max-width: 1200px) 50vw, 1200px"
+        sizes="(max-width: 300px) 100vw, (max-width: 300px) 50vw, 200px"
         loading="lazy"
         alt="<?php the_title_attribute(); ?>"
     >

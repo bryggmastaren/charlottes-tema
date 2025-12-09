@@ -1,1 +1,89 @@
+/* funkar 7 dec */
 
+* {
+  margin: 0;
+  margin-top: -0.3rem;
+  overflow: auto;
+}
+h1 {
+  color: rgb(34, 34, 34);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  margin: 1.3rem 3rem;
+  padding-bottom: 1rem;
+  font-size: 4.8rem;
+}
+
+h2 {
+  margin: 2rem 0 0.2rem 3rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+h6 {
+  font-size: 14px;
+  color: rgb(52, 52, 52);
+}
+
+h5 {
+  font-size: 18px;
+  color: rgb(136, 0, 118);
+}
+.footer-widget-area h5 {
+  color: black;
+  font-size: 18px;
+}
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin: 0.5rem 3rem;
+  padding-top: 0.2rem;
+}
+p {
+  margin-left: 3rem;
+  font-size: 18px;
+  padding-top: 0.7rem;
+  font-family: 'Inter', sans-serif;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+}
+
+a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+
+  color: rgb(29, 29, 29);
+}
+a:hover {
+  color: rgb(187, 0, 162);
+}
+
+div h2 {
+  padding: 0.5rem 0 0.2rem 0;
+}
+
+.blog-post {
+  height: 300px;
+  margin-bottom: 3rem;
+}
+
+.blog-post-container {
+  background-color: #f6f6f6;
+}
+
+.pagination {
+  margin-top: -2rem;
+  margin-bottom: 3rem;
+  padding: 2rem 0 2rem 3rem;
+}
+.pagination a {
+  text-decoration-line: underline;
+  padding: 7px;
+  font-size: 24px;
+  font-weight: 600;
+}

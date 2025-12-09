@@ -12,6 +12,12 @@
 
 <header>
     <nav>
+    <a href="<?php echo home_url(); ?>">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/favicon.ico" 
+         alt="<?php bloginfo('name') ; ?>" 
+         class="site-logo">
+        
+</a>
         <?php
         wp_nav_menu( 
             array(
