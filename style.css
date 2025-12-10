@@ -79,7 +79,7 @@ p {
 }
 
 body {
-  background: rgb(246, 246, 246);
+  background: rgba(246, 246, 246, 0.899);
 }
 
 nav {
@@ -133,6 +133,30 @@ a {
 .page-template-contact-form h2 {
   color: red;
 }
+
+/* SEARCH */
+.search-container {
+  padding-top: 2rem;
+  margin-bottom: 4rem;
+}
+.search-container h1 {
+  padding-bottom: 2rem;
+}
+.search-container h2,
+.search-container p {
+  background-color: #fff;
+  padding: 2.2rem;
+  margin-left: 0 !important;
+}
+
+.search-container p {
+  margin-top: -0.5rem;
+}
+.search-content {
+  height: 42vh;
+  padding-bottom: 2rem;
+}
+
 /* widgets */
 .footer-widget-area {
   font-family: 'Inter', sans-serif;
@@ -176,7 +200,9 @@ a {
 }
 
 /* Contact form*/
-
+.contact-form {
+  padding-top: 1rem;
+}
 label {
   /* "your name" */
   font-family: 'Archivo', sans-serif;
@@ -214,7 +240,8 @@ textarea {
 
 .my-content-wrapper {
   padding: 10px;
-  margin: 0;
+  margin-top: 1rem;
+  margin-bottom: 4rem;
 }
 div h1 {
   margin-left: 3rem;
