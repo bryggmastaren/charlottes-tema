@@ -130,16 +130,18 @@ a {
 .charlottes-header-menu li {
   list-style: none;
 }
-.page-template-contact-form h1 {
+.page-template-contact-form h2 {
   color: red;
 }
 /* widgets */
 .footer-widget-area {
   font-family: 'Inter', sans-serif;
-  background-color: lightblue;
+  background-color: #7d0057;
+  color: #fff;
   padding-top: 3rem;
   font-size: 24px;
-  height: 50vh;
+  height: 52vh;
+  letter-spacing: 0.05rem;
 }
 
 .footer-widget-area {
@@ -151,7 +153,7 @@ a {
 }
 
 .wp-block-verse {
-  color: rgb(106, 0, 106);
+  color: #fff8d8;
   padding-top: 1rem;
   padding-left: 3rem;
   padding-bottom: 3rem;
@@ -162,7 +164,7 @@ a {
 }
 
 .footer-widget .wp-block-embed-spotify {
-  height: 12rem;
+  height: auto;
   display: flex;
   align-items: center;
 }
@@ -218,12 +220,24 @@ div h1 {
   margin-left: 3rem;
 }
 
+/* sidebar */
+.sidebar {
+  height: 49vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: #c700ac 3px solid;
+  border-radius: 10px;
+  width: 80vh;
+}
+
 /* ABOUT US PAGE */
 .about-us-container {
   display: flex;
   gap: 20px;
   align-items: center;
   max-width: 95%;
+  justify-content: center;
 }
 
 .about-us-content {
@@ -234,29 +248,27 @@ div h1 {
 .about-us-content h1 {
   margin-bottom: 0.8rem;
 }
+
+.about-us-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  max-width: 95%;
+  height: 62vh;
+}
 .about-us-content p {
   letter-spacing: 0.03rem;
-  width: 70%;
+  width: 80%;
   line-height: 1.8rem;
   padding-bottom: 4rem;
 }
 
-/* sidebar */
-.sidebar {
-  height: 49vh;
-  display: flex;
-  flex-direction: column;
-  background-color: #ffffff;
-  border: #c700ac 3px solid;
-  border-radius: 10px;
-}
 .about-us-sidebar {
   flex: 1;
   padding-top: 4rem;
   display: flex;
   justify-content: flex-end;
   align-items: center;
-  padding-bottom: 4rem;
 }
 
 .about-us-sidebar ul.menu {

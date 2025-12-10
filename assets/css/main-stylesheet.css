@@ -11,8 +11,32 @@ h1 {
   font-size: 5rem;
   padding-top: 9rem;
 }
+
+a {
+  text-decoration: none;
+}
+
+h1 a {
+  color: #efefef;
+}
+.latest-blog-posts {
+  background-color: #fff;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+  padding: 2rem;
+}
+/* Rubrik för senaste inlägg */
 h2 {
+  margin: 2rem 0 0.2rem 3rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
   margin-left: 3rem;
+}
+
+h2 a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  color: rgb(29, 29, 29);
 }
 h2,
 h3,
@@ -23,7 +47,39 @@ h6 {
   font-weight: 700;
   margin: 1rem 3rem;
 }
+h1 a:hover,
+h2 a:hover {
+  color: rgb(187, 0, 162);
+}
 
+/* Författare */
+h5 {
+  font-size: 18px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin: 0.5rem 3rem;
+  padding-top: 0.2rem;
+}
+
+/* Datum */
+h6 {
+  font-size: 14px;
+  color: rgb(52, 52, 52);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin: 0.5rem 3rem;
+  padding-top: 0.2rem;
+}
+
+/* Text */
+p {
+  margin-left: 3rem;
+  font-size: 18px;
+  padding-top: 0.7rem;
+  padding-top: em;
+  font-family: 'Inter', sans-serif;
+}
 .menu {
   display: flex;
   flex-direction: row;
@@ -38,4 +94,120 @@ ul {
 
 ul li {
   list-style: none;
+}
+
+.hero-page-container {
+  height: 100vh;
+}
+/* under hero-bilden, över senaste bloggposten"*/
+.home-content {
+  margin-left: 2.1rem;
+}
+.home-content h2 {
+  font-size: 2.7rem;
+  font-family: Archivo, sans-serif;
+  padding-bottom: 0.2rem;
+}
+.home-content {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+/* FRONT-PAGE — matchad stil med bloggen */
+
+/* Reset / generellt */
+* {
+  margin: 0;
+  overflow: auto;
+}
+
+/* HERO */
+.hero-title {
+  color: rgb(34, 34, 34);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 4.8rem;
+  margin: 1.3rem 3rem;
+  padding-bottom: 1rem;
+}
+
+/* Container runt senaste post */
+.front-latest-post-container {
+  background-color: #f6f6f6;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+/* Extra spacing under inlägg */
+.front-latest-post {
+  margin-bottom: 3rem;
+}
+
+/* /////////////// /*
+
+/* HERO */
+.hero-title {
+  color: rgb(34, 34, 34);
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  font-size: 4.8rem;
+  margin: 1.3rem 3rem;
+  padding-bottom: 1rem;
+}
+
+/* Rubrik för senaste inlägg */
+h2 {
+  margin: 2rem 0 0.2rem 3rem;
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+}
+
+h2 a {
+  font-family: 'Archivo', sans-serif;
+  font-weight: 900;
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+}
+
+h2 a:hover {
+  color: rgb(187, 0, 162);
+}
+
+/* Författare */
+.hero-page-container h5 {
+  font-size: 18px;
+  color: rgb(136, 0, 118);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin: 0.5rem 3rem;
+  padding-top: 0.2rem;
+}
+
+/* Datum */
+h6 {
+  font-size: 14px;
+  color: rgb(52, 52, 52);
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  margin: 0.5rem 3rem;
+  padding-top: 0.2rem;
+}
+
+/* Text */
+p {
+  margin-left: 3rem;
+  font-size: 18px;
+  padding-top: 0.7rem;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Container runt senaste post */
+.front-latest-post-container {
+  background-color: #f6f6f6;
+  padding: 2rem 0;
+  margin-bottom: 3rem;
+}
+
+/* Extra spacing under inlägg */
+.front-latest-post {
+  margin-bottom: 3rem;
 }
