@@ -43,6 +43,7 @@ p {
   font-size: 18px;
   padding-top: 0.7rem;
   font-family: 'Inter', sans-serif;
+  color: rgb(34, 34, 34);
 }
 .menu {
   display: flex;
