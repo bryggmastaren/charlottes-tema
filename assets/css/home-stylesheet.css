@@ -12,6 +12,7 @@ h1 {
   margin: 1.3rem 3rem;
   padding-bottom: 1rem;
   font-size: 4.8rem;
+  padding-left: 1rem;
 }
 
 h2 {
@@ -24,15 +25,10 @@ h6 {
   font-size: 14px;
   color: rgb(52, 52, 52);
 }
+.wp-block-heading h5 {
+  color: #fff;
+}
 
-h5 {
-  font-size: 18px;
-  color: rgb(136, 0, 118);
-}
-.footer-widget-area h5 {
-  color: black;
-  font-size: 18px;
-}
 h3,
 h4,
 h5,
@@ -52,11 +48,17 @@ p {
   display: flex;
   flex-direction: row;
 }
-
+.pagination {
+  font-size: 26px;
+  font-weight: 600;
+  color: rgb(187, 0, 162);
+}
+.pagination a {
+  font-size: 27px;
+}
 a {
   font-family: 'Archivo', sans-serif;
   font-weight: 900;
-
   color: rgb(29, 29, 29);
 }
 a:hover {
@@ -65,25 +67,4 @@ a:hover {
 
 div h2 {
   padding: 0.5rem 0 0.2rem 0;
-}
-
-.blog-post {
-  height: 300px;
-  margin-bottom: 3rem;
-}
-
-.blog-post-container {
-  background-color: #f6f6f6;
-}
-
-.pagination {
-  margin-top: -2rem;
-  margin-bottom: 3rem;
-  padding: 2rem 0 2rem 3rem;
-}
-.pagination a {
-  text-decoration-line: underline;
-  padding: 7px;
-  font-size: 24px;
-  font-weight: 600;
 }

@@ -33,6 +33,7 @@ h1 {
 }
 .subpage-1-content h1 {
   margin-bottom: 0.8rem;
+  padding-left: 3rem;
 }
 .subpage-1-content p {
   letter-spacing: 0.03rem;
@@ -205,4 +206,303 @@ h1 {
   height: 45vh;
   background-color: #ffffff;
   border-radius: 10px;
+}
+
+.subpage-1-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  max-width: 95%;
+  height: 62vh;
+}
+
+.subpage-1-content {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+.subpage-1-content h1 {
+  margin-bottom: 0.8rem;
+}
+.subpage-1-content p {
+  letter-spacing: 0.03rem;
+  width: 80%;
+  line-height: 1.8rem;
+  padding-bottom: 4rem;
+}
+
+/* Subpage-1 sidebar */
+.subpage-1-sidebar {
+  flex: 1;
+  left: 0;
+  border: #c700ac 3px solid;
+  height: 49vh;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.subpage-1-sidebar ul.menu {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subpage-1-sidebar h3 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 2rem;
+  margin-left: 1.4rem;
+  padding-top: 1.5rem;
+}
+
+.subpage-1-sidebar ul.menu li a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  padding: 15px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 0.3rem;
+}
+
+.subpage-1-sidebar ul.menu li a:hover {
+  background: #ff79d7;
+}
+
+/* Desktop (default) */
+.subpage-1-container {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  max-width: 95%;
+  height: 62vh;
+}
+
+.subpage-1-content {
+  display: flex;
+  flex-direction: column;
+  flex: 3;
+}
+
+.subpage-1-content h1 {
+  margin-bottom: 0.8rem;
+}
+
+.subpage-1-content p {
+  letter-spacing: 0.03rem;
+  width: 80%;
+  line-height: 1.8rem;
+  padding-bottom: 4rem;
+}
+
+/* Sidebar desktop */
+.subpage-1-sidebar {
+  flex: 1;
+  border: #c700ac 3px solid;
+  height: 49vh;
+  background-color: #ffffff;
+  border-radius: 10px;
+}
+
+.subpage-1-sidebar ul.menu {
+  list-style: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.subpage-1-sidebar h3 {
+  font-family: 'Archivo', sans-serif;
+  font-size: 2rem;
+  margin-left: 1.4rem;
+  padding-top: 1.5rem;
+}
+
+.subpage-1-sidebar ul.menu li a {
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  color: #333;
+  padding: 15px;
+  background: #f2f2f2;
+  border-radius: 4px;
+  margin: 0.3rem;
+}
+
+.subpage-1-sidebar ul.menu li a:hover {
+  background: #ff79d7;
+}
+
+/* Tablet / Mobile - SUBPAGE 1*/
+@media (max-width: 1024px) {
+  .subpage-1-container {
+    flex-direction: column; /* vertikal */
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 1rem;
+  }
+
+  .subpage-1-content {
+    min-width: 80%;
+    padding: 0 1rem;
+    align-items: center;
+  }
+
+  .subpage-1-content h1 {
+    text-align: center;
+    padding-left: 0;
+  }
+
+  .subpage-1-content p {
+    padding-bottom: 1rem;
+    margin-left: 0;
+  }
+
+  .subpage-1-sidebar {
+    width: 90%;
+    height: auto;
+    margin-top: 2rem;
+  }
+
+  aside.subpage-1-sidebar {
+    height: auto;
+
+    width: 77%;
+  }
+  .subpage-1-sidebar {
+    padding-top: 1rem;
+    margin-bottom: 3rem;
+    padding-bottom: 3.8rem;
+  }
+
+  .subpage-1-sidebar ul.menu li a {
+    width: 100wv;
+  }
+}
+
+/* Extra mobil-smal skärm */
+@media (max-width: 600px) {
+  .subpage-1-sidebar {
+    width: 95%;
+    margin-top: 1.5rem;
+    padding-left: 1rem;
+  }
+}
+/* ================================
+   Tablet / Mobile – SUBPAGE 2
+================================ */
+@media (max-width: 1024px) {
+  .subpage-2-container {
+    flex-direction: column; /* Gör layouten vertikal */
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 1rem;
+  }
+
+  /* CONTENT först */
+  .subpage-2-content {
+    order: 1; /* Flyttas överst */
+    min-width: 80%;
+    padding: 0 1rem;
+    text-align: center;
+    align-items: center;
+  }
+
+  .subpage-2-content h1 {
+    text-align: center;
+  }
+
+  .subpage-2-content p {
+    padding-bottom: 1rem;
+    margin-left: 0;
+  }
+
+  /* SIDEBAR under content */
+  .subpage-2-sidebar {
+    order: 2; /* Flyttas under texten */
+    width: 90%;
+    height: auto;
+
+    padding: 1.5rem 0 3rem 3rem;
+  }
+
+  .subpage-2-sidebar ul.menu li a {
+    padding: 12px;
+    width: 80%;
+  }
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+  .subpage-2-sidebar {
+    width: 95%;
+    margin-top: 1.5rem;
+    padding-left: 2rem;
+    margin-bottom: 2rem;
+  }
+  .subpage-2-container {
+    margin: 2rem;
+  }
+}
+
+/* ================================
+   SUBPAGE 4 – DESKTOP
+================================ */
+.subpage-4-container {
+  padding-top: 5rem;
+  padding-bottom: 3rem;
+}
+
+/* SUBPAGE 3 */
+@media (max-width: 1024px) {
+  .subpage-3-container {
+    height: auto;
+    margin: 3rem;
+  }
+  .subpage-3-container h1 {
+    margin-left: 2rem;
+  }
+  .subpage-3-content p {
+    width: 85%;
+  }
+}
+/* 
+   SUBPAGE 4 – TABLET & MOBILE
+*/
+@media (max-width: 1024px) {
+  .subpage-4-container {
+    flex-direction: column; /* stapla */
+    align-items: center;
+    text-align: center;
+    height: auto;
+    padding-top: 2rem;
+  }
+
+  .subpage-4-content,
+  .subpage-4-img {
+    max-width: 90%; /*  centrerat */
+  }
+
+  .subpage-4-content h1 {
+    text-align: center;
+  }
+}
+
+/* 
+   EXTRA SMALL MOBIL
+*/
+@media (max-width: 600px) {
+  .subpage-4-content p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+
+  .subpage-4-img {
+    margin-top: 1rem;
+  }
 }
